@@ -24,7 +24,7 @@ rm /tmp/fw_guac.txt
 # firewall-cmd --zone=public --permanent --add-port=7000/tcp
 # firewall-cmd --list-all-zones
 firewall-cmd --list-ports
-systemctl restart firewalld
+# systemctl restart firewalld
 
 EOT
 
